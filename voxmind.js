@@ -6,6 +6,7 @@
 // 5.Hash Tables
 // 6.Graphs
 
+//BIG 0
 function logItems(n) {
   // 0(n)
   for (let i = 0; i < n; i++) {
