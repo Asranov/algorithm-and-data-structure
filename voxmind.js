@@ -55,3 +55,16 @@ logItems2(5);
 function addItems(n) {
   return n + n + n;
 }
+
+function logItems3(a, b) {
+  // 0(a)
+  for (let i = 0; i < a; i++) {}
+
+  // 0(b)
+  for (let j = 0; j < b; j++) {}
+
+  // 0(a * b)
+  for (let i = 0; i < a; i++) {
+    for (let j = 0; j < b; j++) {}
+  }
+}
