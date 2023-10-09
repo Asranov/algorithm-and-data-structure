@@ -69,3 +69,17 @@ function logItems3(a, b) {
     for (let j = 0; j < b; j++) {}
   }
 }
+
+// const obj1 = {
+//   value: 10
+// }
+
+// const obj2 = obj1
+
+// const obj3 = obj2
+
+// obj3.value = 12
+
+// console.log("OBJ1: ", obj1.value)
+// console.log("OBJ2: ", obj3.value)
+// console.log("OBJ3: ", obj2.value)
