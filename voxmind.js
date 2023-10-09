@@ -51,7 +51,7 @@ function logItems2(n) {
 
 logItems2(5);
 
-0(1);
+// 0(1);
 function addItems(n) {
   return n + n + n;
 }
