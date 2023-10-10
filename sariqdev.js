@@ -1,4 +1,5 @@
-//DATA STRUCTER & ALGORITHM
+// #0
+// DATA STRUCTER & ALGORITHM
 
 // Algorithms
 // Algoritm - muammoning qadam-baqadam yechimi
@@ -12,3 +13,5 @@
 // Fanning dolzarbligi
 // Mavjud muammoni bir necha yechimi bolishi mumkun va eng samaraligini ishlatish
 // Agar bu fanni bilsa muammoni yechimini samarali yolini topish tez boladi
+
+// #1
