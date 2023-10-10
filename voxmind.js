@@ -6,6 +6,7 @@
 // 5.Hash Tables
 // 6.Graphs
 
+//1.LINKED LISTS
 //BIG 0
 function logItems(n) {
   // 0(n)
