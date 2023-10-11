@@ -1,5 +1,5 @@
 // #0
-// DATA STRUCTER & ALGORITHM
+// DATA STRUCTURE & ALGORITHM
 
 // Algorithms
 // Algoritm - muammoning qadam-baqadam yechimi
