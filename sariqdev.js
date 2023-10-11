@@ -86,3 +86,15 @@ function binarySearch(list, item) {
 console.log(linearSearch([1, 2, 3, 4, 5], 4));
 
 // #03 ALGORITMLAR | Big O
+// Big O (Katta O) - algorithm tezligini o'lchash uchun mezon
+// Big O eng yomon holatdagi tezlikni o'lchaydi
+// Olchov birligi - operatsiyalar soni
+// Linear Search uchun O(n)
+// Binary Search uchun Olog2(n)
+
+// Bazi algorithmlar tezligi (TARTIB BOYICHA TARTIBLANGAN !):
+// O(log2n) - Binary Search
+// Linear Search - O(n)
+// O(n*log2n) - Quicksort Algorithms
+// O(nkvadrat) - Slow Sorting Algoritms
+// O(n!) - Traveling salesperson
