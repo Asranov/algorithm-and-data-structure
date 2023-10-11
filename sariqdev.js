@@ -45,3 +45,4 @@ function getSum(a, b) {
 
 // Binary search [1 - 100] - 50? , [1 - 50] - 25? , [25 - 50] - 38? [25 - 38] -28? , [28 - 32] - 30? yes it was 30
 // N ta elementdan iborat ro'yxat uchun: Maksimum qadamlar soni log,2(N) ga teng
+// NOTICE: AGAR ROYXAT TARTIB BILAN BO'LMASA BINARY SEARCHXAM ISHLAMAYDI
