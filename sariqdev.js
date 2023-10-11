@@ -98,3 +98,14 @@ console.log(linearSearch([1, 2, 3, 4, 5], 4));
 // O(n*log2n) - Quicksort Algorithms
 // O(nkvadrat) - Slow Sorting Algoritms
 // O(n!) - Traveling salesperson
+
+// #04 ALGORITMLAR | ARRAY
+// [1, 2, 3, 4, 5];
+// length: 5,
+// FirstIndex: 0,
+// LastIndex: 4
+
+// Array elementlari xotirada yonma-yon joylanadi
+// BIG O
+// Element oqish O(1)
+// Element qo'shish O(n)
