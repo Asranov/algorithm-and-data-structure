@@ -38,3 +38,10 @@ function getSum(a, b) {
 
   return sum;
 }
+
+// #02 ALGORITMLAR | BINARY SEARCH
+// Linear search (CHIZIQLI QIDIRISH ammo samarasiz) [1, 2, 3, 4, 5, 6, 7, 8, 9] agar bizga 5 kerak bolsa 1, 2, 3, 4, 5 va 5 ni qaytaradi va toxtaydi
+// N ta elementdan iborat ro'yxat uchun: Maksimum qadamlar soni N ga teng
+
+// Binary search [1 - 100] - 50? , [1 - 50] - 25? , [25 - 50] - 38? [25 - 38] -28? , [28 - 32] - 30? yes it was 30
+// N ta elementdan iborat ro'yxat uchun: Maksimum qadamlar soni log,2(N) ga teng
