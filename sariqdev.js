@@ -46,3 +46,43 @@ function getSum(a, b) {
 // Binary search [1 - 100] - 50? , [1 - 50] - 25? , [25 - 50] - 38? [25 - 38] -28? , [28 - 32] - 30? yes it was 30
 // N ta elementdan iborat ro'yxat uchun: Maksimum qadamlar soni log,2(N) ga teng
 // NOTICE: AGAR ROYXAT TARTIB BILAN BO'LMASA BINARY SEARCHXAM ISHLAMAYDI
+
+function linearSearch(list, item) {
+  let itemIdx;
+  for (let i = 0; i < list.length; i++) {
+    if (list[i] == item) {
+      itemIdx = i;
+    } else {
+      itemIdx = -1;
+    }
+  }
+
+  return itemIdx;
+}
+
+function binarySearch(list, item) {
+  if (!list.sorted) {
+    list.sort();
+  }
+
+  let low = 0;
+  let high = list.length - 1;
+
+  while (low <= high) {
+    let mid = Math.floor((low + high) / 2);
+
+    if (list[mid] === item) {
+      return mid;
+    } else if (list[mid] < item) {
+      low = mid + 1;
+    } else {
+      high = mid - 1;
+    }
+  }
+
+  return -1;
+}
+
+console.log(linearSearch([1, 2, 3, 4, 5], 4));
+
+// #03 ALGORITMLAR | Big O
