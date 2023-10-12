@@ -83,7 +83,7 @@ function binarySearch(list, item) {
   return -1;
 }
 
-console.log(linearSearch([1, 2, 3, 4, 5], 4));
+// console.log(linearSearch([1, 2, 3, 4, 5], 4));
 
 // #03 ALGORITMLAR | Big O
 // Big O (Katta O) - algorithm tezligini o'lchash uchun mezon
@@ -133,3 +133,30 @@ console.log(linearSearch([1, 2, 3, 4, 5], 4));
 // #07 ALGORITMLAR | SELECTION SORT
 // Big O: O(n * 1/2 * n) = O(n * n) = O(nkvadrat)
 // Ammo bu samarasiz usullardan biri
+
+// #08 ALGORITMLAR | REKURSIYA
+function lookForKey(key) {
+  const qutilar = ["1 Quti", "2 Quti", "3 Quti", "4 Quti"];
+  for (let i = 0; i < qutilar.length; i++) {
+    if (qutilar[i] === key) {
+      return true;
+    } else {
+      return false;
+    }
+  }
+}
+
+function reverseNumbers(n) {
+  if (n <= 0) {
+    return "Input should be a positive integer.";
+  }
+
+  for (let i = n; i >= 1; i--) {
+    debugger;
+    console.log(i);
+  }
+
+  return 1;
+}
+
+reverseNumbers(10);
