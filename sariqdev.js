@@ -129,3 +129,7 @@ console.log(linearSearch([1, 2, 3, 4, 5], 4));
 // Misol uchun: Moshinani oladigon bo'lsak 4 ta baloni va 4 ta eshigi bo'r bu umumiy abstract
 
 // #06 ALGORITMLAR | LINKED LISTS. AMALIYOT
+
+// #07 ALGORITMLAR | SELECTION SORT
+// Big O: O(n * 1/2 * n) = O(n * n) = O(nkvadrat)
+// Ammo bu samarasiz usullardan biri
