@@ -109,3 +109,21 @@ console.log(linearSearch([1, 2, 3, 4, 5], 4));
 // BIG O
 // Element oqish O(1)
 // Element qo'shish O(n)
+
+// #05 ALGORITMLAR | LINKED LIST
+// LINKED LIST - bu ketmaketlikgi xotirada joylashuviga bog'liq bo'lmagan chiziqli ma'lumotlar to'plami
+// A -> B -> C -> ...
+// Solishtirish: Array va Linked List
+// O'qish - O(1) , O(n) (Array oson o'qilishi/qidirish)
+// Qo'shish - O(n), O(1) (Linked List oson qo'shish)
+// O'chirish - O(n), O(1) (Linked List oson o'chirish)
+
+// Linked List turlari:
+// 1.Single Linked list - Bir tomonlama ro'yxat
+// 2.Circular Linked List - Aylana ro'yxat
+// 3.Double Linked List - Ikki tomonlama ro'yxat
+
+// Abstract Ma'lumot Turlari
+// Ma'lumot turiga dasturlash tilida uzilgan holda qarash
+// Abstract ma'lumot turi u saqlaydi qiymatlar va uning ustida bajarish mumkun bo'lgan operasiyalar bilan aniqlanadi
+// Misol uchun: Moshinani oladigon bo'lsak 4 ta baloni va 4 ta eshigi bo'r bu umumiy abstract
