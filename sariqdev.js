@@ -127,3 +127,5 @@ console.log(linearSearch([1, 2, 3, 4, 5], 4));
 // Ma'lumot turiga dasturlash tilida uzilgan holda qarash
 // Abstract ma'lumot turi u saqlaydi qiymatlar va uning ustida bajarish mumkun bo'lgan operasiyalar bilan aniqlanadi
 // Misol uchun: Moshinani oladigon bo'lsak 4 ta baloni va 4 ta eshigi bo'r bu umumiy abstract
+
+// #06 ALGORITMLAR | LINKED LISTS. AMALIYOT
