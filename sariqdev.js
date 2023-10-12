@@ -152,11 +152,66 @@ function reverseNumbers(n) {
   }
 
   for (let i = n; i >= 1; i--) {
-    debugger;
-    console.log(i);
+    // console.log(i);
   }
 
   return 1;
 }
 
 reverseNumbers(10);
+
+// #09 ALGORITMLAR | STACK VA REKURSIYA
+// LIFO Ma'lumotlar to'plami
+// LIFO (Last In First Out) - Oxirgi kirgan, birinchi chiqadi
+// Ma'lumotlar to'plam ustida qo'shiladi va to'plam ustida olinadi
+// STACK USTIDA AMALLAR: PUSH, POP
+
+class Stack {
+  constructor() {
+    this.stack = [];
+  }
+
+  // Push an element onto the stack
+  push(item) {
+    this.stack.push(item);
+  }
+
+  // Pop the top element from the stack and return it
+  pop() {
+    if (this.isEmpty()) {
+      return "Stack is empty";
+    }
+    return this.stack.pop(); // Corrected from this.items.pop()
+  }
+
+  // Peek at the top element without removing it
+  peek() {
+    if (this.isEmpty()) {
+      return "Stack is empty";
+    }
+    return this.stack[this.stack.length - 1]; // Corrected from this.items
+  }
+
+  // Check if the stack is empty
+  isEmpty() {
+    return this.stack.length === 0; // Corrected from this.items.length
+  }
+
+  // Get the size of the stack
+  size() {
+    return this.stack.length; // Corrected from this.items.length
+  }
+
+  // Print the stack's contents
+  print() {
+    console.log(this.stack);
+  }
+}
+
+const stack = new Stack();
+
+stack.push(1);
+stack.push(2);
+stack.push(3);
+
+stack.print(); // Output: [1, 2, 3]
