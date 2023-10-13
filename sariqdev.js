@@ -244,8 +244,39 @@ function quicksort(arr) {
   return [...quicksort(left), pivot, ...quicksort(right)];
 }
 
-const unsortedArray = [4, 2, 7, 1, 9, 3];
-const sortedArray = quicksort(unsortedArray);
+// const unsortedArray = [4, 2, 7, 1, 9, 3];
+// const sortedArray = quicksort(unsortedArray);
+
+// console.log("Unsorted Array:", unsortedArray);
+// console.log("Sorted Array:", sortedArray);
+
+// #12 ALGORITMLAR | Bubble sort
+// Bubble sort - Big O: O(n * n)
+// Eng soda tartiblash algorithm
+// Qoshni elementlarni solishtirish va o'rnini almashtirish orqali ishlaydi
+function bubbleSort(arr) {
+  const n = arr.length;
+  let swapped;
+
+  do {
+    swapped = false;
+
+    for (let i = 0; i < n - 1; i++) {
+      if (arr[i] > arr[i + 1]) {
+        // Swap the elements
+        const temp = arr[i];
+        arr[i] = arr[i + 1];
+        arr[i + 1] = temp;
+        swapped = true;
+      }
+    }
+  } while (swapped);
+
+  return arr;
+}
+
+// const unsortedArray = [64, 34, 25, 12, 22, 11, 90];
+// const sortedArray = bubbleSort(unsortedArray);
 
 // console.log("Unsorted Array:", unsortedArray);
 // console.log("Sorted Array:", sortedArray);
