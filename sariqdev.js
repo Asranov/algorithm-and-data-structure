@@ -215,3 +215,9 @@ stack.push(2);
 stack.push(3);
 
 stack.print(); // Output: [1, 2, 3]
+
+// #10 ALGORITMLAR | Divide and Conquer
+// Bazida muammolarga yechim ko'rinmaydi
+// Yaxshi dastur muammo oldida yengilmaydi
+// Katta muammoni mayda muammoga bo'lib olamiz, har bir muammoni alohida hal qiladi
+// Bu devide va concuer metodi deb ataladi
