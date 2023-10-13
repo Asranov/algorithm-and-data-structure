@@ -280,3 +280,8 @@ function bubbleSort(arr) {
 
 // console.log("Unsorted Array:", unsortedArray);
 // console.log("Sorted Array:", sortedArray);
+
+// #13 ALGORITMLAR | Merge Sort
+// Devide va Conquer usuli yordamida ishlaydigon tartiblash algorithm
+// Ro'yxatni ikkiga bolib, ikki tarafni alohida tartiblab jamlash asosida ishlaydi
+// Quich Sort tushunarliroq Merge Sortga qaraganda
