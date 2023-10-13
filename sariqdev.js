@@ -285,3 +285,25 @@ function bubbleSort(arr) {
 // Devide va Conquer usuli yordamida ishlaydigon tartiblash algorithm
 // Ro'yxatni ikkiga bolib, ikki tarafni alohida tartiblab jamlash asosida ishlaydi
 // Quich Sort tushunarliroq Merge Sortga qaraganda
+
+// #14 ALGORITMLAR | Hash tables
+// Tartibli Ro'yxat - Binary Search: O(log2n)
+// -Anor: 20000
+// -Banan: 25000
+// -Hurmo: 12000
+
+// Tartibsiz Ro'yxat - Linear Search: O(n)
+// -Hurmo: 12000
+// -Banan: 25000
+// -Anor: 20000
+
+// Hash funksiya matnni takrorlanmas, noyob songa o'tkazib beradi
+// Hash funksiya turi ko'p
+// Yaxshi hash funk belgilari: Bir xil matn uchun bir xil son qaytaradi, xar xil matn uchun xar xil son qaytaradi
+
+// "Olma" -> Hash -> 5
+// "Anor" -> Hash -> 0
+// "Nok" -> Hash -> 4
+// "Banan" -> Hash -> 2
+
+// Hash foydali va ko'p ishlatiladigon ma'lumotlar tuzilmasi
