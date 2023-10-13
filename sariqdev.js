@@ -204,7 +204,7 @@ class Stack {
 
   // Print the stack's contents
   print() {
-    console.log(this.stack);
+    // console.log(this.stack);
   }
 }
 
@@ -221,3 +221,31 @@ stack.print(); // Output: [1, 2, 3]
 // Yaxshi dastur muammo oldida yengilmaydi
 // Katta muammoni mayda muammoga bo'lib olamiz, har bir muammoni alohida hal qiladi
 // Bu devide va concuer metodi deb ataladi
+
+// #11 ALGORITMLAR | Quicksort
+// Taxminan = O(nlogn)
+function quicksort(arr) {
+  if (arr.length <= 1) {
+    return arr;
+  }
+
+  const pivot = arr[0];
+  const left = [];
+  const right = [];
+
+  for (let i = 1; i < arr.length; i++) {
+    if (arr[i] < pivot) {
+      left.push(arr[i]);
+    } else {
+      right.push(arr[i]);
+    }
+  }
+
+  return [...quicksort(left), pivot, ...quicksort(right)];
+}
+
+const unsortedArray = [4, 2, 7, 1, 9, 3];
+const sortedArray = quicksort(unsortedArray);
+
+// console.log("Unsorted Array:", unsortedArray);
+// console.log("Sorted Array:", sortedArray);
