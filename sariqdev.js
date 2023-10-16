@@ -345,3 +345,6 @@ function bubbleSort(arr) {
 //
 // Tez yechim: Greedy Algo - tez lekin optimal emas
 // Optimal yechim: Barcha kombinasiyalarni izlash
+
+// #22 ALGORITMLAR | K-NN algoritmi. Klassifikasiya muammosi
+// KNN - K-nearest neighbors (K-ta eng yaqin qo'shnilar)
