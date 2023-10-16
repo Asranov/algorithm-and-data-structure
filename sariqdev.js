@@ -338,3 +338,10 @@ function bubbleSort(arr) {
 
 // #19 ALGORITMLAR | NP-Muammolar
 // Kichik sonlar uchun tez, katta sonlar uchun juda sekin ishlaydi
+
+// #20 ALGORITMLAR | Dynamic Programming
+// Dynamic Programming - Muammoning bir nechta mayda muammolarga bo'lib, ularga yechim topish orqali katta muammoga yechim topish usuli
+
+//
+// Tez yechim: Greedy Algo - tez lekin optimal emas
+// Optimal yechim: Barcha kombinasiyalarni izlash
