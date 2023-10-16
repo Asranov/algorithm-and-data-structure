@@ -348,3 +348,5 @@ function bubbleSort(arr) {
 
 // #22 ALGORITMLAR | K-NN algoritmi. Klassifikasiya muammosi
 // KNN - K-nearest neighbors (K-ta eng yaqin qo'shnilar)
+
+// #23 ALGORITMLAR | K-NN algoritmi. Regressiya
