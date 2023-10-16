@@ -320,3 +320,6 @@ function bubbleSort(arr) {
 // Ikki savolga javob beradi:
 // 1.A va B node orasida yo'l bormi ?
 // 2.A va B eng yaqin yo'l qaysi?
+
+//#16 ALGORITMLAR | Graph va Breadth-First Search Dasturi
+// Directed Graph (Yonaltirilgan graph) - bir tomonlama
