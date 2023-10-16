@@ -323,3 +323,10 @@ function bubbleSort(arr) {
 
 //#16 ALGORITMLAR | Graph va Breadth-First Search Dasturi
 // Directed Graph (Yonaltirilgan graph) - bir tomonlama
+
+// #17 ALGORITMLAR | Dijkstra Algoritmi
+// Dijkstra Algoritmi vaznli graflarda "ENG ARZON" yo'lni topish uchun ishlatilinadi:
+// -Masofa
+// -Narx
+// -Vaqt
+// -vazn
