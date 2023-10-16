@@ -335,3 +335,6 @@ function bubbleSort(arr) {
 // Bazida shunday muammolar bo'ladi xech qanday algoritmlar tushmaydi - shunday xolarda bizga greedy algo yordam beradi
 // Greedy algo har doim ham eng to'g'ri yechimni bermaydi
 // Lekin amalga oshirish (dasturlash) oson
+
+// #19 ALGORITMLAR | NP-Muammolar
+// Kichik sonlar uchun tez, katta sonlar uchun juda sekin ishlaydi
