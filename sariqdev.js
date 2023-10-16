@@ -330,3 +330,8 @@ function bubbleSort(arr) {
 // -Narx
 // -Vaqt
 // -vazn
+
+// #18 ALGORITMLAR | Greedy Algoritmlar
+// Bazida shunday muammolar bo'ladi xech qanday algoritmlar tushmaydi - shunday xolarda bizga greedy algo yordam beradi
+// Greedy algo har doim ham eng to'g'ri yechimni bermaydi
+// Lekin amalga oshirish (dasturlash) oson
