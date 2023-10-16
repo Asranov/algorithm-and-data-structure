@@ -307,3 +307,16 @@ function bubbleSort(arr) {
 // "Banan" -> Hash -> 2
 
 // Hash foydali va ko'p ishlatiladigon ma'lumotlar tuzilmasi
+
+// #15 ALGORITMLAR | Graph Maʼlumotlar tuzilmasi va Breadth-First algoritmi
+// Qayerlarda ishlatilinadi ?
+// Navigasiya
+// Aloqa tarmoqlari
+// IP routing
+// Ijtimoiy tarmoqlarda siz taniydigon odamni topishda
+// Robot/Dron uchun yo'l topishda
+
+// Bredth-First qidirish algoritmi Graphlar bilan ishlaydi
+// Ikki savolga javob beradi:
+// 1.A va B node orasida yo'l bormi ?
+// 2.A va B eng yaqin yo'l qaysi?
