@@ -138,6 +138,7 @@ function binarySearch(list, item) {
 // #08 ALGORITMLAR | REKURSIYA
 function lookForKey(key) {
   const qutilar = ["1 Quti", "2 Quti", "3 Quti", "4 Quti"];
+
   for (let i = 0; i < qutilar.length; i++) {
     if (qutilar[i] === key) {
       return true;
