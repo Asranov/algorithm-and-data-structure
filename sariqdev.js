@@ -10,6 +10,7 @@
 // Data Structure
 // Malumotlar tuzilmasi - malumotlardan samarali foydalanish uchun tartibga solishning o'ziga xos usuli
 // (программная единица, позволяющая хранить и обрабатывать однотипные и/или логически связанные данные. )
+// Структура данных - это способ организации информации так, чтобы ее можно было хранить и использовать в программе.
 
 // Fanning dolzarbligi
 // Mavjud muammoni bir necha yechimi bolishi mumkun va eng samaraligini ishlatish
