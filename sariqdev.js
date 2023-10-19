@@ -381,3 +381,4 @@ function bubbleSort(arr) {
 // #25 ALGORITMLAR | Mustaqil o'rganish uchun tavsiyalar. 2-qism.
 // BLOOM FILTERS
 // HyberLogLog
+// Secure Hash Algorithm (SHA)
