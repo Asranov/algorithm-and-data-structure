@@ -370,3 +370,6 @@ function bubbleSort(arr) {
 // B-tree (ma'lumotlar bazasida ishlatilinadi)
 // Heap
 // Splay tree
+
+//INVERTED INDEXES (data structure)
+// Google search qilgandaxam shu algorithmdan foydalanadi
