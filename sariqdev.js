@@ -375,3 +375,5 @@ function bubbleSort(arr) {
 // Google search qilgandaxam shu algorithmdan foydalanadi
 
 // FURYE TRANSFORMS (data structure)
+
+// PARALLEL (data structure)
