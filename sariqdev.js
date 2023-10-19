@@ -87,6 +87,8 @@ function binarySearch(list, item) {
 // console.log(linearSearch([1, 2, 3, 4, 5], 4));
 
 // #03 ALGORITMLAR | Big O
+// BIG O - это способ оценки
+
 // Big O (Katta O) - algorithm tezligini o'lchash uchun mezon
 // Big O eng yomon holatdagi tezlikni o'lchaydi
 // Olchov birligi - operatsiyalar soni
