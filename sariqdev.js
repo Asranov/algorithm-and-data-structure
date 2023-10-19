@@ -87,7 +87,7 @@ function binarySearch(list, item) {
 // console.log(linearSearch([1, 2, 3, 4, 5], 4));
 
 // #03 ALGORITMLAR | Big O
-// BIG O - это способ оценки
+// BIG O - это способ оценки того, насколько быстро работает алгоритм
 
 // Big O (Katta O) - algorithm tezligini o'lchash uchun mezon
 // Big O eng yomon holatdagi tezlikni o'lchaydi
@@ -354,3 +354,19 @@ function bubbleSort(arr) {
 // KNN - K-nearest neighbors (K-ta eng yaqin qo'shnilar)
 
 // #23 ALGORITMLAR | K-NN algoritmi. Regressiya
+
+// #24 ALGORITMLAR | Mustaqil o'rganish uchun tavsiyalar. 1-qism.
+// TREES
+// Taqoslemiz ARRAY VA BS TREE  ni
+//           Array     BS TREE
+// Qidirish  O(log2n)  O(log2n)
+// Qoshish   O(n)      O(log2n)
+// O'chirish O(n)      O(log2n)
+// BUYERDA BS TREE G'olib bolmoqda
+// Kamchilik tarafi MUVOZANATNI YO'QOTISH (YANI BIR TOMONDA MALUMOTLAR KOPAYIB KETISHI)
+
+// TREE TURLARI:
+// Red-black tree (o'zini muvozanatga keltiradi)
+// B-tree (ma'lumotlar bazasida ishlatilinadi)
+// Heap
+// Splay tree
