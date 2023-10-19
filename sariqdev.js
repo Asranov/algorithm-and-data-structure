@@ -373,3 +373,5 @@ function bubbleSort(arr) {
 
 //INVERTED INDEXES (data structure)
 // Google search qilgandaxam shu algorithmdan foydalanadi
+
+// FURYE TRANSFORMS (data structure)
