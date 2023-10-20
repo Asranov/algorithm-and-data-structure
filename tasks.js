@@ -31,3 +31,18 @@ function findMaxValue(arr) {
 
   return maxValue;
 }
+
+// Task 3:
+// Create a function that counts how many times a specific element appears in an array.
+// Use linear search to perform the count and return the result.
+function countOccurences(arr, elem) {
+  let count = 0;
+
+  for (let i = 0; i < arr.length; i++) {
+    if (arr[i] === elem) {
+      count++;
+    }
+  }
+
+  return count;
+}
