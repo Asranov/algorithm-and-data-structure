@@ -16,3 +16,18 @@ function searchIndex(arr, target) {
 }
 
 searchIndex([3, 2, 4, 1, 5, 2], 2);
+
+// Task 2:
+// Write a JavaScript function that finds the maximum value in an array using linear search.
+// The function should return the maximum value.
+function findMaxValue(arr) {
+  let maxValue = arr[0];
+
+  for (let i = 0; i < arr.length; i++) {
+    if (arr[i] > maxValue) {
+      maxValue = arr[i];
+    }
+  }
+
+  return maxValue;
+}
