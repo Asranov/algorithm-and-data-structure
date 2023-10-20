@@ -47,6 +47,7 @@ function countOccurences(arr, elem) {
   return count;
 }
 
+// Task 4:
 // Write a function to find the index of the first occurrence of a given element in an array.
 // Return -1 if the element is not found.
 function findFirstOccurrence(arr, elem) {
