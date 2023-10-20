@@ -1,5 +1,7 @@
 // #0
 // DATA STRUCTURE & ALGORITHM
+// Структура данных — это способ организации данных
+// алгоритм — это метод решения проблем
 
 // Algorithms
 // Algoritm - muammoning qadam-baqadam yechimi (пошаговое решение проблемы)
