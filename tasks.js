@@ -83,3 +83,20 @@ function binarySearch(arr, target) {
 
   return -1;
 }
+
+// Task 2:
+// Create a function that finds and returns the middle element of a sorted array.
+// If the array has an even number of elements, return the element to the left of the middle.
+function findMiddleElement(arr) {
+  const length = arr.length;
+  const middleIndex = Math.floor(length / 2);
+  debugger;
+
+  if (length % 2 === 0) {
+    return arr[middleIndex - 1];
+  } else {
+    return arr[middleIndex];
+  }
+}
+
+console.log(findMiddleElement([1, 2, 3, 4]));
