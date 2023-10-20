@@ -59,3 +59,28 @@ function findFirstOccurrence(arr, elem) {
 
   return -1;
 }
+
+// Binary Search Tasks:
+// Task 1:
+// Write a JavaScript function to perform binary search on a sorted array.
+// The function should take an array and a target value and
+// return the index of the target value if it's found, or -1 if it's not in the array.
+
+function binarySearch(arr, target) {
+  let left = 0;
+  let right = arr.length - 1;
+
+  while (left <= right) {
+    debugger;
+    const mid = Math.floor((left + right) / 2);
+    if (arr[mid] === target) {
+      return mid;
+    } else if (arr[mid] < target) {
+      left = mid + 1;
+    } else {
+      right = mid - 1;
+    }
+  }
+
+  return -1;
+}
