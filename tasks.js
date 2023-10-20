@@ -90,7 +90,6 @@ function binarySearch(arr, target) {
 function findMiddleElement(arr) {
   const length = arr.length;
   const middleIndex = Math.floor(length / 2);
-  debugger;
 
   if (length % 2 === 0) {
     return arr[middleIndex - 1];
