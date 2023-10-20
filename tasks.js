@@ -71,7 +71,6 @@ function binarySearch(arr, target) {
   let right = arr.length - 1;
 
   while (left <= right) {
-    debugger;
     const mid = Math.floor((left + right) / 2);
     if (arr[mid] === target) {
       return mid;
