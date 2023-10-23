@@ -152,3 +152,13 @@ function binarySearch(sortedArr, target) {
 
   return -1;
 }
+
+// Arrays & Linked Lists
+// Task 1:
+// Declare an array called fruits with the elements "apple," "banana," "cherry."
+// Add "orange" to the end of the array.
+// Remove the first element from the array.
+
+const fruits = ["apple", "banana", "cherry"];
+fruits.push("orange");
+fruits.shift("");
