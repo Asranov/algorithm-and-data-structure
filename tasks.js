@@ -172,3 +172,35 @@ class Node {
     this.next = null;
   }
 }
+
+// Task 3:
+// Implement a LinkedList class with head, insert, and display methods.
+
+class LinkedList {
+  constructor() {
+    this.head = null;
+  }
+
+  insert(value) {
+    const newNode = new Node(value);
+    if (!this.head) {
+      this.head = newNode;
+    } else {
+      let current = this.head;
+      while (current.next) {
+        current = current.next;
+      }
+      current.next = newNode;
+    }
+  }
+
+  display() {
+    const elements = [];
+    let current = this.head;
+    while (current) {
+      elements.push(current.value);
+      current = current.next;
+    }
+    console.log(elements);
+  }
+}
