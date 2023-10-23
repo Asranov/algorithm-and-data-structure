@@ -204,5 +204,3 @@ class LinkedList {
     console.log(elements);
   }
 }
-
-console.log("FOR TEST COMMIT");
