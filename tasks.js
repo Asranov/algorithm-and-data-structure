@@ -162,3 +162,13 @@ function binarySearch(sortedArr, target) {
 const fruits = ["apple", "banana", "cherry"];
 fruits.push("orange");
 fruits.shift();
+
+// Task 2:
+// Implement a Node class with a constructor that takes a value.
+
+class Node {
+  constructor(value) {
+    this.value = value;
+    this.next = null;
+  }
+}
