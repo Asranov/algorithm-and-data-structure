@@ -98,4 +98,57 @@ function findMiddleElement(arr) {
   }
 }
 
-console.log(findMiddleElement([1, 2, 3, 4]));
+// BIG O TASKS:
+// O(1) - Constant Time
+function returnFirstElement(arr) {
+  return arr[0];
+}
+
+// O(n) - Linear Time
+function findMax(arr) {
+  let max = arr[0];
+
+  for (let i = 0; i < arr.length; i++) {
+    if (arr[i] > max) {
+      max = arr[i];
+    }
+  }
+
+  return max;
+}
+
+// O(n^2) - Quadratic Time:
+function bubbleSort(arr) {
+  const n = arr.length;
+  for (let i = 0; i < n - 1; i++) {
+    for (let j = 0; j < n - 1 - i; j++) {
+      if (arr[i] > arr[j + 1]) {
+        const temp = arr[j];
+        arr[j] = arr[j + 1];
+        arr[j + 1] = temp;
+      }
+    }
+  }
+
+  return arr;
+}
+
+// O(log n) - Logarithmic Time:
+function binarySearch(sortedArr, target) {
+  let left = 0;
+  let right = sortedArr.length - 1;
+
+  while (left <= right) {
+    const mid = Math.floor((left + right) / 2);
+    if (sortedArr[mid] === target) {
+      return mid;
+    }
+    if (sortedArr[mid] < target) {
+      left = mid + 1;
+    } else {
+      right = mid - 1;
+    }
+  }
+
+  return -1;
+}
