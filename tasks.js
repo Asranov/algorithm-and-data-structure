@@ -161,4 +161,4 @@ function binarySearch(sortedArr, target) {
 
 const fruits = ["apple", "banana", "cherry"];
 fruits.push("orange");
-fruits.shift("");
+fruits.shift();
