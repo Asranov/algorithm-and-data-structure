@@ -204,3 +204,24 @@ class LinkedList {
     console.log(elements);
   }
 }
+
+// Алгоритм Рекурсивный
+function factorial(n) {
+  // debugger;
+  if (n === 0) {
+    return 1;
+  } else {
+    return n * factorial(n - 1);
+  }
+}
+const result = factorial(3);
+
+function sumOfIntegers(n) {
+  if (n === 1) {
+    return 1;
+  } else {
+    return n + sumOfIntegers(n - 1);
+  }
+}
+
+console.log(sumOfIntegers(3));
