@@ -99,7 +99,7 @@ function binarySearch(list, item) {
 
 // Bazi algorithmlar tezligi (TARTIB BOYICHA TARTIBLANGAN !):
 // O(log2n) - Binary Search
-// Linear Search - O(n)
+// O(n) - Linear Search
 // O(n*log2n) - Quicksort Algorithms
 // O(nkvadrat) - Slow Sorting Algoritms
 // O(n!) - Traveling salesperson
