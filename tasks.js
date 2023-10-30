@@ -201,7 +201,7 @@ class LinkedList {
       elements.push(current.value);
       current = current.next;
     }
-    console.log(elements);
+    // console.log(elements);
   }
 }
 
@@ -224,4 +224,4 @@ function sumOfIntegers(n) {
   }
 }
 
-console.log(sumOfIntegers(3));
+// console.log(sumOfIntegers(3));
