@@ -238,3 +238,12 @@ function pow(x, n) {
 }
 
 console.log(pow(2, 3));
+
+// Recursive thinking: simplify the task and call self:
+function powR(x, n) {
+  if (n == 1) {
+    return x;
+  } else {
+    return x * pow(x, n - 1);
+  }
+}
