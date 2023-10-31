@@ -225,3 +225,16 @@ function sumOfIntegers(n) {
 }
 
 // console.log(sumOfIntegers(3));
+
+// Iterative thinking: the for loop:
+function pow(x, n) {
+  let result = 1;
+
+  for (let i = 1; i <= n; i++) {
+    result *= x;
+  }
+
+  return result;
+}
+
+console.log(pow(2, 3));
